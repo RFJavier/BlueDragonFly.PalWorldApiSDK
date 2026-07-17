@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="BlueDragonFly.PalWorldApiSDK.Core/BlueDragonFly.PalWorldApiSDK.Core.csproj" />
+  <Project Path="BlueDragonFly.PalWorldApiSDK.Demo/BlueDragonFly.PalWorldApiSDK.Demo.csproj" />
+  <Project Path="BlueDragonFly.PalWorldApiSDK.Tests/BlueDragonFly.PalWorldApiSDK.Tests.csproj" />
+
+</Solution>

@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+
+    <!-- Metadatos del paquete NuGet -->
+    <PackageId>BlueDragonFly.PalWorldApiSDK.Core</PackageId>
+    <Version>1.0.0</Version>
+    <Title>BlueDragonFly Palworld API SDK</Title>
+    <Authors>Javier Rivera</Authors>
+    <Company>BlueDragonFly</Company>
+    <Description>Cliente .NET no oficial para administrativa de servidores Palworld mediante la api oficial. Soporta informacion, jugadores, metricas, configuracion, actores del mundo, anuncios, expulsiones, bloqueos, guardado y apagado.</Description>
+    <PackageTags>palworld;api;rest;sdk;game-server;admin</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/RFJavier/BlueDragonFly.PalWorldApiSDK</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/RFJavier/BlueDragonFly.PalWorldApiSDK.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+  
+    <PackageReleaseNotes>Version 1.0.0. Cliente orientado a dominios (PalworldClient) con autenticacion HTTP Basic, modelos tipados para todos los endpoints oficiales documentados, excepciones especificas para 400/401, demo de consola con soporte de archivo .env y documentacion completa de uso y plataforma. Consulta CHANGELOG.md para mas detalles.</PackageReleaseNotes>
+    <NeutralLanguage>es</NeutralLanguage>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\README.md" Pack="true" PackagePath="\" />
+    
+    <None Include="..\LICENSE" Pack="true" PackagePath="\" />
+  </ItemGroup>
+</Project>
