@@ -4,7 +4,7 @@
 [![.NET](https://img.shields.io/badge/.NET-10.0-512BD4.svg)](https://dotnet.microsoft.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-Biblioteca .NET sin dependencias de terceros para administrar un servidor Palworld mediante su [API REST oficial](https://docs.palworldgame.com/category/rest-api/).
+Biblioteca .NET para administrar un servidor Palworld mediante su [API REST oficial](https://docs.palworldgame.com/category/rest-api/).
 
 ## Documentacion
 
@@ -14,19 +14,15 @@ Biblioteca .NET sin dependencias de terceros para administrar un servidor Palwor
 - [Plataforma de destino y compatibilidad](docs/PLATFORM.md)
 - [Changelog](docs/CHANGELOG.md)
 
+## Requisitos
+
+[![.NET](https://img.shields.io/badge/.NET-10.0-512BD4.svg)](https://dotnet.microsoft.com/)
+
 ## Instalacion
 
 ```powershell
-dotnet add package BlueDragonFly.PalWorldApiSDK
+dotnet add package BlueDragonFly.PalWorldApiSDK.Core
 ```
-
-O referencia directa al proyecto Core:
-
-```xml
-<ProjectReference Include="ruta/a/BlueDragonFLy.PalWorldApiSDK.Core.csproj" />
-```
-
-Requiere .NET 10 o superior.
 
 ## Uso rapido
 
@@ -93,3 +89,4 @@ La API de Palworld usa Basic Auth y permite acciones administrativas destructiva
 ## Licencia
 
 Este proyecto se distribuye bajo la licencia [MIT](LICENSE).
+Copyright (c) 2026 Javier Rivera.

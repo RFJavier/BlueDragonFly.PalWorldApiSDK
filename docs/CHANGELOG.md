@@ -20,3 +20,11 @@ El formato sigue [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/) y e
 - Pruebas unitarias para metodo HTTP, ruta, autenticacion, cuerpo JSON, deserializacion, manejo de errores y validacion de parametros.
 - Documentacion: `README.md`, `docs/ARCHITECTURE.md`, `docs/ENDPOINTS.md`, `docs/USAGE.md`, `docs/PLATFORM.md` y `CHANGELOG.md`.
 - Licencia MIT y metadatos completos de NuGet en el proyecto Core.
+
+## [1.0.1] - 2026-07-17
+
+### Documentation
+
+- Actualizado el README y la documentación de uso para referenciar correctamente el paquete `BlueDragonFly.PalWorldApiSDK.Core`.
+- Simplificada la guía de instalación y los requisitos.
+- Mejoras generales de redacción y consistencia de la documentación.

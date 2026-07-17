@@ -29,13 +29,13 @@ Esta guia explica paso a paso como usar el SDK para administrar un servidor Palw
 Desde NuGet.org:
 
 ```powershell
-dotnet add package BlueDragonFly.PalWorldApiSDK
+dotnet add package BlueDragonFly.PalWorldApiSDK.Core
 ```
 
 O con una version concreta:
 
 ```powershell
-dotnet add package BlueDragonFly.PalWorldApiSDK --version 1.0.0
+dotnet add package BlueDragonFly.PalWorldApiSDK.Core --version 1.0.0
 ```
 
 ## Configurar la conexion
